@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 25px 0;
+    background-color: black;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 50px;
+}
+
+header li,
+section li {
+    display: inline;
+    margin-left: 25px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Shantell Sans', cursive;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section h2,
+section h3 {
+    font-family: 'Shantell Sans', cursive;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid black;
+}
+form button:hover {
+    background-color: rgba(21, 20, 20, 0.213);
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 16px 0;
+}
+
+.container,
+.container_2 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container_3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem 6rem 5rem;
+}
+
+.container_4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_band {
+    margin-right: 32px;
+    height: 405px;
+}
+
+.discografia {
+    width: 200px;
+    height: 200px;
+    border: 1.5px solid #000;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.discografia p {
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.discografia img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s ease;
+}
+
+.discografia:hover img {
+    transform: scale(1.2);
+}
+.social-links img {
+    height: 40px;
+}
+
+.social-links li {
+    margin: 0 0 0 8px;
+}
+
+#contato .container {
+    display: block;
+}
